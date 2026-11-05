@@ -1,0 +1,40 @@
+{
+  "name": "PA - Java 17",
+  "image": "mcr.microsoft.com/devcontainers/java:17-bookworm",
+  "runArgs": [
+    "--init"
+  ],
+  "customizations": {
+    "vscode": {
+      "settings": {
+        "security.workspace.trust.enabled": false,
+        "security.workspace.trust.startupPrompt": "never",
+        "security.workspace.trust.emptyWindow": false,
+        "github.codespaces.defaultExtensions": [],
+        "github.copilot.enabled": false,
+        "github.copilot.chat.enabled": false,
+        "chat.disableAIFeatures": true,
+        "chat.commandCenter.enabled": false,
+        "chat.extensionTools.enabled": false,
+        "inlineChat.accessibleDiffView": "off",
+        "terminal.integrated.initialHint": false,
+        "projectManager.autoDetectJavaRuntime": false,
+        "projectManager.autoDetectJavaProjects": false,
+        "projectManager.autoDetectMavenProjects": false,
+        "projectManager.autoDetectGradleProjects": false,
+        "java.prompts.userInstallJDK": false,
+        "java.telemetry.enabled": false,
+        "java.configuration.updateBuildConfiguration": "disabled",
+        "java.autobuild.enabled": true,
+        "java.compile.nullAnalysis.mode": "disabled",
+        "extensions.ignoreRecommendations": true,
+        "extensions.autoUpdate": false,
+        "extensions.autoCheckUpdates": false
+      },
+      "extensions": [
+        "vscjava.vscode-java-pack"
+      ]
+    }
+  },
+  "remoteUser": "vscode"
+}
