@@ -9,12 +9,12 @@ public class MainEstacionamiento {
         int capacidad = scanner.nextInt();
         scanner.nextLine();
 
-        ManejadorEstacionamiento estacionamiento = new ManejadorEstacionamiento(capacidad);
+        // --- TU CÓDIGO AQUÍ ---
         int opcion = 0;
 
         do {
             System.out.println("\n==========================================");
-            System.out.println("   ■ MENÚ GESTIÓN DE ESTACIONAMIENTO");
+            System.out.println("   MENÚ GESTIÓN DE ESTACIONAMIENTO");
             System.out.println("==========================================");
             System.out.println("1. Registrar entrada de vehículo");
             System.out.println("2. Registrar salida de vehículo");
@@ -27,8 +27,7 @@ public class MainEstacionamiento {
             switch (opcion) {
                 case 1:
                     System.out.print("Ingrese la patente del vehículo: ");
-                    String patenteEntrada = scanner.nextLine();
-                    boolean ingresoOk = estacionamiento.registrarEntrada(new Vehiculo(patenteEntrada));
+                   // --- TU CÓDIGO AQUÍ ---
                     if (ingresoOk) {
                         System.out.println("✔ Vehículo registrado correctamente.");
                     } else {
@@ -37,8 +36,7 @@ public class MainEstacionamiento {
                     break;
                 case 2:
                     System.out.print("Ingrese la patente a retirar: ");
-                    String patenteSalida = scanner.nextLine();
-                    boolean salidaOk = estacionamiento.registrarSalida(patenteSalida);
+                    // --- TU CÓDIGO AQUÍ ---
                     if (salidaOk) {
                         System.out.println("✔ Vehículo retirado con éxito.");
                     } else {
@@ -46,10 +44,10 @@ public class MainEstacionamiento {
                     }
                     break;
                 case 3:
-                    System.out.println("Vehículos actuales: " + estacionamiento.getCantidadActual() + " / " + estacionamiento.getCapacidadMaxima());
+                    // --- TU CÓDIGO AQUÍ ---
                     break;
                 case 4:
-                    System.out.println("■ Sistema de estacionamiento finalizado.");
+                    System.out.println(" Sistema de estacionamiento finalizado.");
                     break;
                 default:
                     System.out.println("Opción no válida. Intente nuevamente.");
