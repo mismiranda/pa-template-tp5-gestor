@@ -14,7 +14,7 @@ public class MainFestival {
 
         do {
             System.out.println("\n==========================================");
-            System.out.println("   ■ MENÚ DJ FESTIVAL STREAMING");
+            System.out.println("   MENÚ DJ FESTIVAL STREAMING");
             System.out.println("==========================================");
             System.out.println("1. Agregar canción a la cola");
             System.out.println("2. Reproducir siguiente tema");
@@ -27,24 +27,22 @@ public class MainFestival {
             switch (opcion) {
                 case 1:
                     System.out.print("Título del tema: ");
-                    String titulo = scanner.nextLine();
+                   // --- TU CÓDIGO AQUÍ ---
                     System.out.print("Artista: ");
-                    String artista = scanner.nextLine();
+                    // --- TU CÓDIGO AQUÍ ---
                     System.out.print("Duración en segundos: ");
-                    int duracion = scanner.nextInt();
+                    // --- TU CÓDIGO AQUÍ ---
                     System.out.print("¿Es tendencia/viral? (true/false): ");
-                    boolean esTrending = scanner.nextBoolean();
-                    scanner.nextLine();
-                    djSession.agregarACola(new Cancion(titulo, artista, duracion, esTrending));
+                   // --- TU CÓDIGO AQUÍ ---                   
                     break;
                 case 2:
-                    djSession.reproducirSiguiente();
+                    // --- TU CÓDIGO AQUÍ ---
                     break;
                 case 3:
-                    djSession.mostrarSoloHitsTrending();
+                    // --- TU CÓDIGO AQUÍ ---
                     break;
                 case 4:
-                    System.out.println("■ ¡Sesión de DJ finalizada!");
+                    System.out.println(" ¡Sesión de DJ finalizada!");
                     break;
                 default:
                     System.out.println("Opción no válida. Intente nuevamente.");
