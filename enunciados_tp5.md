@@ -1,9 +1,11 @@
 UNPA-UARG - 2025
 Carreras: Analista de Sistemas y Licenciatura en Sistemas
 Asignatura: Programación de Algoritmos
+
 Trabajo Práctico Nº 5
+
 Tema: Gestor
-- Página 1 de 1 -
+
 1. Crea un gestor de estacionamiento que administre la entrada y salida de vehículos. El objetivo
 es simular cómo se gestiona la ocupación de espacios en un estacionamiento.
 - Crea una clase ManejadorEstacionamiento que tenga una capacidad máxima de vehículos.
