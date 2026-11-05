@@ -1,0 +1,9 @@
+{
+  "recommendations": [],
+  "unwantedRecommendations": [
+    "vscjava.migrate-java-to-azure",
+    "vscjava.vscode-java-upgrade",
+    "github.copilot",
+    "github.copilot-chat"
+  ]
+}
