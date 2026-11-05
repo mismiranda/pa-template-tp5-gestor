@@ -1,4 +1,4 @@
-# UNPA - UARG (2025)
+# UNPA - UARG (2026)
 ## Asignatura: Programación de Algoritmos
 ### Trabajo Práctico Nº 5 - Tema: Gestor
 
